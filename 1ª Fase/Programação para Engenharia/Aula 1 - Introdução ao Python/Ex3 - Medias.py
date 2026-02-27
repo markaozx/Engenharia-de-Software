@@ -1,0 +1,8 @@
+n1 = int(input('Valor 1:'))
+n2 = int(input('Valor 2:'))
+n3 = int(input('Valor 3:'))
+media = (n1 + n2 + n3) / 3
+if media => 6:
+    print('Media: ',media, 'Aprovado')
+elif media =< 5:
+    print('Media: ', media 'Reprovado')
