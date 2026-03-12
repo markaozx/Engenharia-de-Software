@@ -1,0 +1,5 @@
+frase = input("Digite uma frase: ").lower()
+ant = input("Digite a palavra antiga: ").lower()
+nova = input("Digite a palavra nova: ").lower()
+x = frase.replace(ant,nova)
+print(x)
